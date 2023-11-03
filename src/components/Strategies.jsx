@@ -15,10 +15,7 @@ const Strategies = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
-        speed: 3000,
-        autoplaySpeed: 3000,
-        cssEase: "linear"
+        speed: 300,
     };
     return (
         <div className='bg_stratgies'>

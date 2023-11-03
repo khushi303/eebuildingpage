@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className='bg-header'>
             <Container className='custom_container'>
-                <div className='d-flex fix_nav align-items-center justify-content-between py-lg-1 py-2'>
+                <div className='d-flex fix_nav align-items-center justify-content-between py-lg-1 py-2 bg_blue'>
                     <img src={Pagelogo} alt="Pagelogo" className='mw-68 w-100 cur-pointer' />
                     <div className='d-flex align-items-center justify-content-between gap-btn'>
                         <div onClick={() => setshow(!show)} className={`${show ? "cross" : "cross1"} menu-icon`}>
@@ -52,7 +52,7 @@ const Header = () => {
             </Container>
             <Container className='custom_container'>
                 <Row className='head-padding'>
-                    <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-lg-start justify-content-center pt-5 flex-column'>
+                    <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column'>
                         <h2 className='mb-0 ff-neueuregular fs-2xl fw-medium text-white mw-463 text-uppercase text-center text-lg-start lh-120 pb-4'>Building
                             elastic
                             Protocol</h2>

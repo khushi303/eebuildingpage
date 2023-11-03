@@ -9,7 +9,7 @@ import { Sett2icon } from './Iconsvg';
 const Tokenomins = () => {
     return (
         <div className='bg-token'>
-            <Container>
+            <Container className='custom_container'>
                 <Row>
                     <Col lg={6}>
                         <h2 className='mb-0 ff-neueubold fw-bold fs-3lg text-black lh-120 text-capitalize pb-3'>EEFI Tokenomics</h2>
