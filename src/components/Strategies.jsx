@@ -14,7 +14,11 @@ const Strategies = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 3000,
+        autoplaySpeed: 3000,
+        cssEase: "linear"
     };
     return (
         <div className='bg_stratgies'>
@@ -49,7 +53,7 @@ const Strategies = () => {
                                     <img src={Textimg} alt="Textimg" className='text-img' />
                                 </div>
                             </Col>
-                            <Col lg={6} className='col-12 d-flex pt-lg-0 pt-4 align-items-center justify-content-start justify-content-lg-start'>
+                            <Col lg={6} className='col-12 d-flex pt-lg-0 pt-4 align-items-center justify-content-start'>
                                 <div className='overflow-y-auto hide_scrollbar'>
                                     <div className='h-300 d-lg-block'>
                                         <h2 className='mb-0 ff-neueregular fs-2lg fw-normal lh-120 text-capitalize text-white pb-3'>Elastic Vault</h2>
