@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Efooter from './components/Efooter';
+import Contact from './components/Contact';
+import Roadmapsec from './components/Roadmapsec';
+import Bearman from './components/Bearman'
+import Ecosystem from './components/Ecosystem';
+import Team from './components/Team';
+import Supply from './components/Supply';
+import Strategies from './components/Strategies';
+import BaseStratgies from './components/BaseStratgies';
+import Tokenomins from './components/Tokenomins';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Bearman />
+      <Strategies />
+      <Tokenomins />
+      <Supply />
+      <BaseStratgies />
+      <Team />
+      <Ecosystem />
+      <Roadmapsec />
+      <Contact />
+      <Efooter />
     </div>
   );
 }
