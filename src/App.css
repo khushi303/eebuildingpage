@@ -652,6 +652,29 @@ textarea::placeholder {
   left: 150%;
 }
 
+.glass-hover1 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.glass-hover1::before {
+  content: "";
+  background: rgb(164, 178, 210)70;
+  width: 50%;
+  height: 100%;
+  left: -125%;
+  top: 0%;
+  transform: skew(45deg);
+  filter: blur(30px);
+  position: absolute;
+  transition: left 0.7s ease-in-out !important;
+}
+
+.glass-hover1:hover::before {
+  left: 150%;
+}
+
 /*--------------------Base-stratgies------------------*/
 .card-case {
   max-height: 600px;

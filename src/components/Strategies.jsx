@@ -28,7 +28,7 @@ const Strategies = () => {
                     <div className='px-3'>
                         <Row>
                             <Col lg={6} className='col-12 d-flex align-items-center justify-content-center position-relative'>
-                                <div className='card-stratgy position-relative z-2'>
+                                <div className='card-stratgy glass_hover position-relative z-2'>
                                     <button className='in_button ff-raleway fw-normal fs-sm text-white'>Innovation</button>
                                     <div className='mt-2 d-flex align-items-center justify-content-center'>
                                         <img src={Alogo} alt="Alogo" className='mw-300 w-100' />
@@ -77,7 +77,7 @@ const Strategies = () => {
                     <div className='px-3'>
                         <Row>
                             <Col lg={6} className='col-12 d-flex align-items-center justify-content-center position-relative'>
-                                <div className='card-stratgy position-relative z-2'>
+                                <div className='card-stratgy glass_hover position-relative z-2'>
                                     <button className='in_button ff-raleway fw-normal fs-sm text-white'>Innovation</button>
                                     <div className='mt-2 d-flex align-items-center justify-content-center'>
                                         <img src={Alogo} alt="Alogo" className='mw-300 w-100' />
@@ -126,7 +126,7 @@ const Strategies = () => {
                     <div className='px-3'>
                         <Row>
                             <Col lg={6} className='col-12 d-flex align-items-center justify-content-center position-relative'>
-                                <div className='card-stratgy position-relative z-2'>
+                                <div className='card-stratgy glass_hover position-relative z-2'>
                                     <button className='in_button ff-raleway fw-normal fs-sm text-white'>Innovation</button>
                                     <div className='mt-2 d-flex align-items-center justify-content-center'>
                                         <img src={Alogo} alt="Alogo" className='mw-300 w-100' />
@@ -175,7 +175,7 @@ const Strategies = () => {
                     <div className='px-3'>
                         <Row>
                             <Col lg={6} className='col-12 d-flex align-items-center justify-content-center position-relative'>
-                                <div className='card-stratgy position-relative z-2'>
+                                <div className='card-stratgy glass_hover position-relative z-2'>
                                     <button className='in_button ff-raleway fw-normal fs-sm text-white'>Innovation</button>
                                     <div className='mt-2 d-flex align-items-center justify-content-center'>
                                         <img src={Alogo} alt="Alogo" className='mw-300 w-100' />
