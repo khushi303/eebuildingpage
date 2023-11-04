@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Pagelogo from '../assets/images/page-logo.png';
-import Roboimg from '../assets/images/head-robot.png';
-import Roboimg2 from '../assets/images/robotimg2.png';
+import Pagelogo from '../assets/images/webpimg/page-logo.webp';
+import Roboimg from '../assets/images/webpimg/head-robot.webp';
+import Roboimg2 from '../assets/images/webpimg/robotimg2.webp';
 import { Moredropdownicon } from './Iconsvg';
 import { Headdots } from './Iconsvg';
 
@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className='bg-header'>
             <Container className='custom_container'>
-                <div className='d-flex fix_nav align-items-center justify-content-between py-lg-1 py-2 bg_blue'>
+                <div data-aos="zoom-in-right" className='d-flex fix_nav align-items-center justify-content-between py-lg-1 py-2 bg_blue'>
                     <img src={Pagelogo} alt="Pagelogo" className='mw-68 w-100 cur-pointer' />
                     <div className='d-flex align-items-center justify-content-between gap-btn'>
                         <div onClick={() => setshow(!show)} className={`${show ? "cross" : "cross1"} menu-icon`}>
@@ -52,14 +52,14 @@ const Header = () => {
             </Container>
             <Container className='custom_container'>
                 <Row className='head-padding'>
-                    <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column'>
+                    <Col data-aos="fade-right" lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column'>
                         <h2 className='mb-0 ff-neueuregular fs-2xl fw-medium text-white mw-463 text-uppercase text-center text-lg-start lh-120 pb-4'>Building
                             elastic
                             Protocol</h2>
                         <p className='mb-0 ff-raleway fs-2sm fw-normal text-white mw-521 lh-150 text-capitalize pb-3 text-lg-start text-center'>An ecosystem of unique yield strategies that help you earn yield, amplify, and stretch it across all market conditions</p>
                         <a href='' className='mb-0 ff-raleway fs-3sm fw-bold text-white text-decoration-underline'>Audited by Omniscia</a>
                     </Col>
-                    <Col lg={6} className='d-flex align-items-lg-start justify-content-lg-end justify-content-center'>
+                    <Col data-aos="fade-left" lg={6} className='d-flex align-items-lg-start justify-content-lg-end justify-content-center'>
                         <img src={Roboimg2} alt="roboimg2" className='d-lg-none d-block robo-img w-100' />
                         <img src={Roboimg} alt="Roboimg" className='robo-img w-100 d-lg-block d-none' />
                     </Col>

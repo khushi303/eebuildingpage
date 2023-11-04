@@ -7,11 +7,11 @@ const Roadmapsec = () => {
   return (
     <div className='bg_roadmap'>
       <Container className='custom_container'>
-        <h2 className='ff-neueubold fw-bold fs-3lg text-white text-capitalize lh-120 text-center roadmap-padd'>Roadmap</h2>
+        <h2 data-aos="fade-down" className='ff-neueubold fw-bold fs-3lg text-white text-capitalize lh-120 text-center roadmap-padd'>Roadmap</h2>
         <div>
           <div className="timeline">
             <div className="container1 left pt-0">
-              <div className="content">
+              <div data-aos="fade-right" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>2022</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Ideation of Elastic Protocol</li>
@@ -31,7 +31,7 @@ const Roadmapsec = () => {
               </div>
             </div>
             <div className="container1 box1 right">
-              <div className="content">
+              <div data-aos="fade-left" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>2023 Beginning</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Olympus Partnership Beginning</li>
@@ -48,7 +48,7 @@ const Roadmapsec = () => {
               </div>
             </div>
             <div className="container1 box-2 left">
-              <div className="content">
+              <div data-aos="fade-right" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q3 2023</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Partner launched KOLs Marketing Campaign | Rally larger community base </li>
@@ -65,7 +65,7 @@ const Roadmapsec = () => {
               </div>
             </div>
             <div className="container1 box1 right">
-              <div className="content">
+              <div data-aos="fade-left" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q4 2023</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Front End upgrade</li>
@@ -83,7 +83,7 @@ const Roadmapsec = () => {
               </div>
             </div>
             <div className="container1 box-2 left">
-              <div className="content">
+              <div data-aos="fade-right" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q3 2023</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Elastic Research and Development: Explore additional vault strategies and develop risk and due-diligence procedures associated with strategy development and implementation</li>
@@ -101,7 +101,7 @@ const Roadmapsec = () => {
               </div>
             </div>
             <div className="container1 box1 right">
-              <div className="content">
+              <div data-aos="fade-left" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q2 2024</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Gearbox | OHM [Perp-Leverage] Vault</li>
@@ -115,7 +115,7 @@ const Roadmapsec = () => {
               </div>
             </div>
             <div className="container1 box-2 left">
-              <div className="content">
+              <div data-aos="fade-right" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q3 2024</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Establish DAO to govern Elastic Finance and fully decentralize protocol</li>
@@ -130,7 +130,7 @@ const Roadmapsec = () => {
               </div>
             </div>
             <div className="container1 box1 right">
-              <div className="content">
+              <div data-aos="fade-left" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q4 2024</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Community voted Yield Strategy 1 (governance)</li>
@@ -142,7 +142,7 @@ const Roadmapsec = () => {
               </div>
             </div>
             <div className="container1 box-2 left">
-              <div className="content">
+              <div data-aos="fade-right" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q1 2025</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Community voted Yield Strategy 2 (governance)</li>
@@ -157,8 +157,8 @@ const Roadmapsec = () => {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 box1 d-box-none right">
-              <div className="content">
+            <div className="container1 box1 d-lg-block d-none right">
+              <div data-aos="fade-left" className="content">
                 <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q4 2024</h2>
                 <ul className='mb-0 list-style-disc ps-0 ps-4'>
                   <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Hand over Elastic Finance DAO to Community: Complete decentralization of Elastic Finance DAO, its treasury, its yield strategies and community governance</li>
@@ -169,8 +169,8 @@ const Roadmapsec = () => {
               </div>
             </div>
           </div>
-          <div className="container1 box1 d-box1-none d-box-block right">
-            <div className="content">
+          <div className="container1 box1 d-lg-none d-block right">
+            <div data-aos="fade-left" className="content">
               <h2 className='ff-jakarta fs-md fw-medium text-white text-capitalize lh-120 pb-3'>Q4 2024</h2>
               <ul className='mb-0 list-style-disc ps-0 ps-4'>
                 <li className='ff-raleway fs-2sm fw-normal text-white lh-150 pb-2'>Hand over Elastic Finance DAO to Community: Complete decentralization of Elastic Finance DAO, its treasury, its yield strategies and community governance</li>

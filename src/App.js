@@ -10,8 +10,22 @@ import Supply from './components/Supply';
 import Strategies from './components/Strategies';
 import BaseStratgies from './components/BaseStratgies';
 import Tokenomins from './components/Tokenomins';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 2000
+      }
+    );
+    Aos.refresh()
+  });
   return (
     <div>
       <Header />

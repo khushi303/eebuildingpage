@@ -11,10 +11,10 @@ const Tokenomins = () => {
         <div className='bg-token'>
             <Container className='custom_container'>
                 <Row>
-                    <Col lg={6}>
+                    <Col data-aos="fade-right" lg={6}>
                         <h2 className='mb-0 ff-neueubold fw-bold fs-3lg text-black lh-120 text-capitalize pb-3'>EEFI Tokenomics</h2>
                         <p className='mb-0 ff-raleway fw-normal fs-2sm text-black lh-160 mw-448 pb-4'>EEFI is the special rewards token of the protocol that is minted and distributed in a decentralized fashion. It produces amplified yield during uptrends and protects from downside action during downtrends.</p>
-                        <button className='btn-view mb-5 ff-raleway fw-medium fs-2sm text-white'>View Contract Address</button>
+                        <button className='btn-view glass_hover mb-5 ff-raleway fw-medium fs-2sm text-white'>View Contract Address</button>
                         <p className='mb-0 ff-neueubold fs-3md fw-bold text-black text-capitalize lh-120 pb-3'>IBO TOKENOMICS</p>
                         <p className='mb-0 ff-raleway fs-3sm fw-bold text-black lh-130 pb-2'>IBO Round 1 Price</p>
                         <p className='mb-0 ff-raleway fs-2sm fw-semibold text_blue lh-130 pb-3'>1 EEFI = $12</p>
@@ -25,7 +25,7 @@ const Tokenomins = () => {
                         <p className='mb-0 ff-raleway fs-3sm fw-bold text-black lh-130 pb-2'>TOTAL SUPPLY</p>
                         <p className='mb-0 ff-raleway fs-2sm fw-semibold text-black lh-130'>170,000</p>
                     </Col>
-                    <Col lg={6} className='pt-lg-0 pt-100'>
+                    <Col data-aos="fade-left" lg={6} className='pt-lg-0 pt-100'>
                         <div className='d-flex align-items-center gap-3 pb-4'>
                             <div className=''>
                                 <Settingsvg />

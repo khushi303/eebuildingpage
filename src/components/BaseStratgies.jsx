@@ -1,35 +1,35 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import Card1 from '../assets/images/card1.png';
-import Smimg1 from '../assets/images/sm-img1.png';
-import Nftcardimg1 from '../assets/images/nftcardimg1.png';
-import Bluecardimg1 from '../assets/images/bluecardimg1.png';
-import Bluecardlogoimg1 from '../assets/images/bluecardlogoimg1.png';
-import Bluecardlogoimg2 from '../assets/images/bluecardlogoimg2.png';
-import Bluecardlogoimg3 from '../assets/images/bluecardlogoimg3.png';
-import Bluecardlogoimg4 from '../assets/images/bluecardlogoimg4.png';
-import Card2 from '../assets/images/card2.png';
-import Card4 from '../assets/images/card4.png';
-import Card5 from '../assets/images/card5.png';
-import Card6 from '../assets/images/card6.png';
-import Card7 from '../assets/images/card7.png';
-import Card8 from '../assets/images/card8.png';
-import Card9 from '../assets/images/card9.png';
-import Smimg2 from '../assets/images/sm-img2.png';
-import Smimg4 from '../assets/images/sm-img4.png';
-import Smimg5 from '../assets/images/sm-img5.png';
-import Smimg6 from '../assets/images/sm-img6.png';
-import Smimg7 from '../assets/images/sm-img7.png';
-import Smimg8 from '../assets/images/sm-img8.png';
-import Smimg9 from '../assets/images/sm-img9.png';
+import Card1 from '../assets/images/webpimg/card1.webp';
+import Smimg1 from '../assets/images/webpimg/sm-img1.webp';
+import Nftcardimg1 from '../assets/images/webpimg/nftcardimg1.webp';
+import Bluecardimg1 from '../assets/images/webpimg/bluecardimg1.webp';
+import Bluecardlogoimg1 from '../assets/images/webpimg/bluecardlogoimg1.webp';
+import Bluecardlogoimg2 from '../assets/images/webpimg/bluecardlogoimg2.webp';
+import Bluecardlogoimg3 from '../assets/images/webpimg/bluecardlogoimg3.webp';
+import Bluecardlogoimg4 from '../assets/images/webpimg/bluecardlogoimg4.webp';
+import Card2 from '../assets/images/webpimg/card2.webp';
+import Card4 from '../assets/images/webpimg/card4.webp';
+import Card5 from '../assets/images/webpimg/card5.webp';
+import Card6 from '../assets/images/webpimg/card6.webp';
+import Card7 from '../assets/images/webpimg/card7.webp';
+import Card8 from '../assets/images/webpimg/card8.webp';
+import Card9 from '../assets/images/webpimg/card9.webp';
+import Smimg2 from '../assets/images/webpimg/sm-img2.webp';
+import Smimg4 from '../assets/images/webpimg/sm-img4.webp';
+import Smimg5 from '../assets/images/webpimg/sm-img5.webp';
+import Smimg6 from '../assets/images/webpimg/sm-img6.webp';
+import Smimg7 from '../assets/images/webpimg/sm-img7.webp';
+import Smimg8 from '../assets/images/webpimg/sm-img8.webp';
+import Smimg9 from '../assets/images/webpimg/sm-img9.webp';
 
 const BaseStratgies = () => {
     return (
         <div className='bg-white case-padding'>
             <Container className='custom_container'>
-                <h2 className='mb-0 ff-neueubold fw-bold fs-3lg text_blue text-capitalize lh-120 text-center mb-3'>Future Use Cases (Strategies)</h2>
+                <h2 data-aos="fade-down" className='mb-0 ff-neueubold fw-bold fs-3lg text_blue text-capitalize lh-120 text-center mb-3'>Future Use Cases (Strategies)</h2>
                 <div className=' d-flex align-items-center justify-content-center'>
-                    <p className='mb-0 ff-raleway fs-2sm fw-normal text-black op_08 lh-160 mw-882 text-center'>Elastic Protocol will continue to pioneer an expanding ecosystem of yield strategies that will cater to DeFi users across a range of blockchains, communities, and interests. Each will help in generating sustainable yield and expanding the utility of the native utility token $EEFI. Here is some of what we are planning and looking into:</p>
+                    <p data-aos="fade-right" className='mb-0 ff-raleway fs-2sm fw-normal text-black op_08 lh-160 mw-882 text-center'>Elastic Protocol will continue to pioneer an expanding ecosystem of yield strategies that will cater to DeFi users across a range of blockchains, communities, and interests. Each will help in generating sustainable yield and expanding the utility of the native utility token $EEFI. Here is some of what we are planning and looking into:</p>
                 </div>
                 <Row className='pad-cardsec justify-content-center'>
                     <Col lg={4} md={6} className=''>

@@ -5,9 +5,9 @@ const Supply = () => {
     return (
         <div className='bg_supply'>
             <Container className='custom_container'>
-                <h2 className='ff-jakarta fs-xl fw-bold text-white text-capitalize text-center lh-120 mb-0'>170k Total Starting Supply</h2>
-                <p className='ff-raleway fs-2sm fw-medium lh-183 text-white text-center mb-0 pt-4'>Initial BONDing Offering (IBO)* Phases</p>
-                <div className='d-flex align-items-center justify-content-center'>
+                <h2 data-aos="fade-down" className='ff-jakarta fs-xl fw-bold text-white text-capitalize text-center lh-120 mb-0'>170k Total Starting Supply</h2>
+                <p data-aos="fade-right" className='ff-raleway fs-2sm fw-medium lh-183 text-white text-center mb-0 pt-4'>Initial BONDing Offering (IBO)* Phases</p>
+                <div data-aos="fade-up" className='d-flex align-items-center justify-content-center'>
                     <div className='overflow_lg_none overflow_auto pt-60 hide_scrollbar'>
                         <div className='w-900 w_550'>
                             <Row className='border-bottom'>
@@ -55,7 +55,7 @@ const Supply = () => {
                         </div>
                     </div>
                 </div>
-                <div className='d-flex align-items-center justify-content-center flex-column pt-100'>
+                <div data-aos="fade-left" className='d-flex align-items-center justify-content-center flex-column pt-100'>
                     <p className='ff-raleway fs-md fw-normal text-white text-decoration-underline lh-183 mb-0'>(47,777 or around<span className='fs-lg'>  28% </span>of total starting supply is up for IBO)</p>
                     <p className='ff-raleway fs-sm fw-normal text-white op_08 lh-130 fv-numaric mb-0 pt-3 mw-521 text-center'>Individuals who hold $EEFI will also receive an airdrop of the protocol's governance token $EFT <span className='fs-1sm'>...learn more</span></p>
                 </div>

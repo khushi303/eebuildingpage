@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
-import Footerlogo from '../assets/images/footerlogo.png';
+import Footerlogo from '../assets/images/webpimg/footerlogo.webp';
 import { Youtube, Github, Tweet, Auicon, Discord, Micon, Msgicon, Fileicon, Noteicon } from './Iconsvg';
 
 const Efooter = () => {
@@ -8,7 +8,7 @@ const Efooter = () => {
         <div className='bg-white'>
             <Container className='custom_container'>
                 <div className=' d-flex align-items-center justify-content-center flex-column footer_padding'>
-                    <img src={Footerlogo} alt="footerlogo" className='mw-107 w-100' />
+                    <img data-aos="fade-down" src={Footerlogo} alt="footerlogo" className='mw-107 w-100' />
                     <p className='ff-raleway fs-2sm fw-normal text_blue pt-2 mb-0'>Join Our Community</p>
                     <ul className='mb-0 d-flex align-items-center list-unstyled justify-content-center footer_link text-nowrap flex-flow_wrap'>
                         <li><a href="#" className=' ff-raleway fs-2sm fw-normal text-black op_07 footer_li_link'>About</a></li>

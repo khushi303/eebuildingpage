@@ -8,6 +8,11 @@
   text-decoration: none !important;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 .custom_container {
   max-width: 1140px !important;
 }
@@ -235,7 +240,7 @@
 /* ----Contact------ */
 
 .bg_contactimg {
-  background-image: url(./assets/images/formsec-bg.png);
+  background-image: url("./assets/images/webpimg/formsec-bg.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -284,14 +289,6 @@ textarea::placeholder {
   padding-top: 87px;
   padding-bottom: 65px;
 }
-
-/* .bg_roadmap {
-  background-image: url(./assets/images/bg_roadmap.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-  width: 100%;
-} */
 
 /*---------------------------Ecosystem---------------------*/
 .eco_bg {
@@ -344,7 +341,14 @@ textarea::placeholder {
 .btn_more {
   padding: 25px 31px;
   border-radius: 8px;
-  border: 1px solid var(--Blue, #1643C3);
+  background: transparent;
+  border: 1px solid #1643C3;
+  transition: all .3s linear;
+}
+
+.btn_more:hover {
+  color: #fff;
+  background: #1643C3;
 }
 
 .ecosec_pad {
@@ -354,10 +358,11 @@ textarea::placeholder {
 /*-------------------team----------------------*/
 
 .bg_team {
-  background-image: linear-gradient(360deg, #fff 24%, transparent 24%), url('./assets/images/team_bg.png');
+  background-image: linear-gradient(360deg, #fff 24%, transparent 24%), url('./assets/images/webpimg/team_bg.webp');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 28%;
+  background-position: top;
+  object-fit: cover;
 }
 
 .team_card {
@@ -365,6 +370,11 @@ textarea::placeholder {
   background: #FFF;
   box-shadow: 0px 4px 44px 5px rgba(0, 0, 0, 0.08);
   padding: 12px;
+  transition: all .3s linear;
+}
+
+.team_card:hover {
+  box-shadow: 0px 4px 44px 5px #0c1f5352;
 }
 
 .pb_70 {
@@ -381,7 +391,7 @@ textarea::placeholder {
 
 /*----------------------supply-----------------------*/
 .bg_supply {
-  background-image: url(./assets/images/bg-supply.png);
+  background-image: url("./assets/images/webpimg/bg-supply.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -439,7 +449,7 @@ textarea::placeholder {
 
 /*------------Strategies---------------*/
 .bg_stratgies {
-  background-image: url(./assets/images/bg-strategy.png);
+  background-image: url("./assets/images/webpimg/bg-strategy.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -501,7 +511,7 @@ textarea::placeholder {
 
 /*----------------------header-----------------------------*/
 .bg-header {
-  background-image: url(./assets/images/bg-header2.png);
+  background-image: url("./assets/images/webpimg/bg-header2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -619,6 +629,29 @@ textarea::placeholder {
   padding-top: 162px;
 }
 
+.glass_hover {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.glass_hover::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.271);
+  width: 50%;
+  height: 100%;
+  left: -125%;
+  top: 0%;
+  transform: skew(45deg);
+  filter: blur(30px);
+  position: absolute;
+  transition: left 0.7s ease-in-out !important;
+}
+
+.glass_hover:hover::before {
+  left: 150%;
+}
+
 /*--------------------Base-stratgies------------------*/
 .card-case {
   max-height: 600px;
@@ -705,12 +738,13 @@ textarea::placeholder {
 
 /*-----------------Roadmap---------------*/
 .bg_roadmap {
-  background-image: url("./assets/images/bg_roadmap.png");
+  background-image: url("./assets/images/webpimg/bg_roadmap.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   width: 100%;
   padding-top: 160px;
+  margin-bottom: -2px;
   padding-bottom: 140px;
 }
 
@@ -778,6 +812,7 @@ textarea::placeholder {
   background: rgba(22, 67, 195, 0.10);
   padding: 36px 15px;
   position: relative;
+  transition: all .3s linear;
 }
 
 .roadmapiconleft1 {
@@ -794,7 +829,7 @@ textarea::placeholder {
 
 /*----------Bearman------------*/
 .bg-bear {
-  background-image: url("./assets/images/bg-bear1.png");
+  background-image: url("./assets/images/webpimg/bg-bear1.webp");
   background-size: 100% 68%;
   background-position: top;
   background-repeat: no-repeat;
@@ -805,14 +840,14 @@ textarea::placeholder {
 }
 
 .big-cloud {
-  bottom: -7%;
+  bottom: -5%;
   left: 0;
   right: 0;
 }
 
 /*---------------Token-------------*/
 .bg-token {
-  background-image: url(./assets/images/bg-twocolour2.png);
+  background-image: url("./assets/images/webpimg/bg-twocolour2.webp");
   background-repeat: no-repeat;
   background-size: 100% 107%;
   background-position: center;
@@ -826,10 +861,7 @@ textarea::placeholder {
   background: linear-gradient(93deg, #1643C3 10.24%, #369EFE 208.68%);
   padding: 17px 16px;
   border: none;
-}
-
-.d-box1-none {
-  display: none;
+  transition: all .3s linear;
 }
 
 /* --------Slider----------- */
@@ -879,7 +911,7 @@ textarea::placeholder {
   }
 
   .bg-bear {
-    background-image: url("./assets/images/bg-bear1.png");
+    background-image: url("./assets/images/webpimg/bg-bear1.webp");
     background-size: 100% 65%;
     background-position: top;
     background-repeat: no-repeat;
@@ -895,7 +927,7 @@ textarea::placeholder {
   }
 
   .big-cloud {
-    bottom: -10%;
+    bottom: -7%;
     left: 0;
     right: 0;
   }
@@ -906,9 +938,11 @@ textarea::placeholder {
   }
 
   .bg_team {
-    background-image: linear-gradient(360deg, #fff 24%, transparent 24%), url('./assets/images/team_bg.png');
-    background-repeat: cover;
-    background-position: center;
+    background-image: linear-gradient(360deg, #fff 24%, transparent 24%), url('./assets/images/webpimg/team_bg.webp');
+    background-repeat: no-repeat;
+    background-position: top;
+    object-fit: cover;
+    background-size: 100% 60%;
   }
 
   .text-img {
@@ -1112,12 +1146,20 @@ textarea::placeholder {
     padding-bottom: 108px;
   }
 
+  .bg_team {
+    background-image: linear-gradient(360deg, #fff 24%, transparent 24%), url('./assets/images/webpimg/team_bg.webp');
+    background-repeat: no-repeat;
+    background-position: top;
+    object-fit: cover;
+    background-size: 100% 100%;
+  }
+
   .min_vh_100 {
     min-height: 100vh;
   }
 
   .bg-bear {
-    background-image: url("./assets/images/bg-bear1.png");
+    background-image: url("./assets/images/webpimg/bg-bear1.webp");
     background-size: 100% 100%;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -1128,7 +1170,7 @@ textarea::placeholder {
   }
 
   .bg_stratgies {
-    background-image: url("./assets/images/bg-strategy.png");
+    background-image: url("./assets/images/webpimg/bg-strategy.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -1149,7 +1191,7 @@ textarea::placeholder {
   }
 
   .big-cloud {
-    bottom: -10%;
+    bottom: -8%;
     left: 0;
     right: 0;
   }
@@ -1198,7 +1240,7 @@ textarea::placeholder {
   }
 
   .bg_stratgies {
-    background-image: url("./assets/images/bg-strategy.png");
+    background-image: url("./assets/images/webpimg/bg-strategy.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -1210,7 +1252,7 @@ textarea::placeholder {
   }
 
   .bg-token {
-    background-image: url("./assets/images/bg-twocolour.png");
+    background-image: url("./assets/images/webpimg/bg-twocolour.webp");
     background-repeat: no-repeat;
     background-size: 100% 110%;
     background-position: center;
@@ -1225,7 +1267,7 @@ textarea::placeholder {
   }
 
   .bg-header {
-    background-image: url("./assets/images/header-bg-img.png");
+    background-image: url("./assets/images/webpimg/header-bg-img.webp");
     background-repeat: no-repeat;
     background-size: 106% 154%;
     background-position: center;
@@ -1284,7 +1326,7 @@ textarea::placeholder {
 
 @media (min-width:992px) and (max-width:1200px) {
   .bg-header {
-    background-image: url("./assets/images/header-bg-img.png");
+    background-image: url("./assets/images/webpimg/header-bg-img.webp");
     background-repeat: no-repeat;
     background-size: 120% 165%;
     background-position: center;

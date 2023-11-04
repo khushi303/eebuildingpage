@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import Teamimg1 from '../assets/images/teamimg1.png';
-import Teamimg2 from '../assets/images/teamimg2.png';
-import Teamimg3 from '../assets/images/teamimg3.png';
+import Teamimg1 from '../assets/images/webpimg/teamimg1.webp';
+import Teamimg2 from '../assets/images/webpimg/teamimg2.webp';
+import Teamimg3 from '../assets/images/webpimg/teamimg3.webp';
 import { Tweetic } from './Iconsvg';
 import { Linkin } from './Iconsvg';
 import { Linel } from './Iconsvg';
@@ -12,9 +12,9 @@ const Team = () => {
     return (
         <div className='bg_team'>
             <Container className='custom_container pad_team'>
-                <h2 className='ff-neueubold fw-bold fs-3lg text-white text-capitalize lh-120 text-center pb_70'>our Team</h2>
+                <h2 data-aos="fade-down" className='ff-neueubold fw-bold fs-3lg text-white text-capitalize lh-120 text-center pb_70'>our Team</h2>
                 <Row className='align-items-center justify-content-center'>
-                    <Col md={4} sm={6} className='pb-md-0 pb-4'>
+                    <Col data-aos="fade-right" md={4} sm={6} className='pb-md-0 pb-4'>
                         <div className='team_card'>
                             <img src={Teamimg1} alt="teamimg1" className='w-100' />
                             <div className='pt-3'>
@@ -28,7 +28,7 @@ const Team = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={4} sm={6} className='pb-md-0 pb-4'>
+                    <Col data-aos="fade-up" md={4} sm={6} className='pb-md-0 pb-4'>
                         <div className='team_card'>
                             <img src={Teamimg2} alt="teamimg2" className='w-100' />
                             <div className='pt-3'>
@@ -44,7 +44,7 @@ const Team = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={4} sm={6}>
+                    <Col data-aos="fade-left" md={4} sm={6}>
                         <div className='team_card'>
                             <img src={Teamimg3} alt="teamimg3" className='w-100' />
                             <div className='pt-3'>

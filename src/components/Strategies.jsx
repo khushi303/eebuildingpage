@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import { Col, Container, Row } from 'react-bootstrap';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Alogo from '../assets/images/a-logo.png';
+import Alogo from '../assets/images/webpimg/a-logo.webp';
 import { Helpic } from './Iconsvg';
-import Textimg from '../assets/images/bg-text.png';
+import Textimg from '../assets/images/webpimg/bg-text.webp';
 
 const Strategies = () => {
     const settings = {
@@ -20,12 +20,12 @@ const Strategies = () => {
     return (
         <div className='bg_stratgies'>
             <Container className='custom_container'>
-                <h2 className='ff-neueubold fs-3lg fw-bold text-white lh-120 text-center mb-0'>Core Strategies</h2>
+                <h2 data-aos="fade-down" className='ff-neueubold fs-3lg fw-bold text-white lh-120 text-center mb-0'>Core Strategies</h2>
                 <div className='d-flex align-items-center justify-content-center pb-5 pt-4'>
-                    <p className='ff-raleway fs-2sm fw-normal text-white op_08 lh-160 text-center mw-819 mb-0'>Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for our native protocol token $EEFI. Check them out!'</p>
+                    <p data-aos="fade-right" className='ff-raleway fs-2sm fw-normal text-white op_08 lh-160 text-center mw-819 mb-0'>Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for our native protocol token $EEFI. Check them out!'</p>
                 </div>
                 <Slider {...settings}>
-                    <div>
+                    <div className='px-3'>
                         <Row>
                             <Col lg={6} className='col-12 d-flex align-items-center justify-content-center position-relative'>
                                 <div className='card-stratgy position-relative z-2'>
@@ -74,7 +74,7 @@ const Strategies = () => {
                             </Col>
                         </Row>
                     </div>
-                    <div>
+                    <div className='px-3'>
                         <Row>
                             <Col lg={6} className='col-12 d-flex align-items-center justify-content-center position-relative'>
                                 <div className='card-stratgy position-relative z-2'>
@@ -123,7 +123,7 @@ const Strategies = () => {
                             </Col>
                         </Row>
                     </div>
-                    <div>
+                    <div className='px-3'>
                         <Row>
                             <Col lg={6} className='col-12 d-flex align-items-center justify-content-center position-relative'>
                                 <div className='card-stratgy position-relative z-2'>
@@ -172,7 +172,7 @@ const Strategies = () => {
                             </Col>
                         </Row>
                     </div>
-                    <div>
+                    <div className='px-3'>
                         <Row>
                             <Col lg={6} className='col-12 d-flex align-items-center justify-content-center position-relative'>
                                 <div className='card-stratgy position-relative z-2'>
