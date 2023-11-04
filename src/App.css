@@ -857,8 +857,7 @@ textarea::placeholder {
   background-position: top;
   background-repeat: no-repeat;
   object-fit: cover;
-  /* height: 500px; */
-  min-height: 70vh;
+  min-height: 50vh;
   background-color: black;
 }
 
@@ -878,6 +877,7 @@ textarea::placeholder {
   /* min-height: 100vh; */
   padding-top: 130px;
   padding-bottom: 120px;
+  margin-bottom: -2px;
 }
 
 .btn-view {
@@ -940,7 +940,7 @@ textarea::placeholder {
     background-repeat: no-repeat;
     object-fit: cover;
     /* height: 500px; */
-    min-height: 70vh;
+    min-height: 50vh;
     background-color: black;
     margin-bottom: -4px;
   }
@@ -1188,7 +1188,7 @@ textarea::placeholder {
     background-repeat: no-repeat;
     object-fit: cover;
     /* height: 500px; */
-    min-height: 83vh;
+    min-height: 75vh;
     background-color: black;
   }
 
@@ -1285,6 +1285,17 @@ textarea::placeholder {
     padding-bottom: 200px;
   }
 
+  .bg-bear {
+    background-image: url("./assets/images/webpimg/bg-bear1.webp");
+    background-size: 100% 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /* height: 500px; */
+    min-height: 80vh;
+    background-color: black;
+  }
+
   .h-300 {
     height: 320px;
   }
@@ -1354,6 +1365,18 @@ textarea::placeholder {
     background-size: 120% 165%;
     background-position: center;
     width: 100%;
+  }
+
+  .bg-bear {
+    background-image: url("./assets/images/webpimg/bg-bear1.webp");
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /* height: 500px; */
+    min-height: 60vh;
+    background-color: black;
+    margin-bottom: -4px;
   }
 }
 
