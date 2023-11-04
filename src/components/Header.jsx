@@ -11,7 +11,7 @@ const Header = () => {
     const [show, setshow] = useState(true);
     return (
         <div className='bg-header'>
-            <Container className='custom_container'>
+            <Container className='custom_container position-relative z-3'>
                 <div data-aos="zoom-in-right" className='d-flex fix_nav align-items-center justify-content-between py-lg-1 py-2 bg_blue'>
                     <img src={Pagelogo} alt="Pagelogo" className='mw-68 w-100 cur-pointer' />
                     <div className='d-flex align-items-center justify-content-between gap-btn'>
