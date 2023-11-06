@@ -957,10 +957,6 @@ textarea::placeholder {
     padding-bottom: 70px
   }
 
-  .bg_black1 {
-    background: transparent;
-  }
-
   .card-case {
     max-height: 650px;
     height: 100%;
@@ -1200,6 +1196,10 @@ textarea::placeholder {
   .case-padding {
     padding-top: 151px;
     padding-bottom: 108px;
+  }
+
+  .bg_black1 {
+    background: transparent;
   }
 
   .bg_team {
