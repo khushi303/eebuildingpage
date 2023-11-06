@@ -546,7 +546,7 @@ textarea::placeholder {
 .btn-enter {
   padding: 16px 31px;
   border-radius: 8px;
-  border: 1px solid var(--Blue, #1643C3);
+  border: 1px solid #1643C3;
   background: transparent;
   font-family: 'Raleway', sans-serif;
   font-size: var(--fs-2sm);
@@ -556,7 +556,8 @@ textarea::placeholder {
 }
 
 .btn-enter:hover {
-  box-shadow: 2px 5px 6px 2px #1644c378;
+  background-color: #052b99;
+  color: #fff;
 }
 
 .btn-enter1 {
