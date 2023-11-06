@@ -352,7 +352,7 @@ textarea::placeholder {
 }
 
 .ecosec_pad {
-  padding-bottom: 124px;
+  padding-bottom: 94px;
 }
 
 /*-------------------team----------------------*/
@@ -382,7 +382,7 @@ textarea::placeholder {
 }
 
 .pad_team {
-  padding-top: 132px;
+  padding-top: 92px;
 }
 
 .pt_160 {
@@ -398,7 +398,7 @@ textarea::placeholder {
   width: 100%;
   margin-bottom: -2px;
   padding-bottom: 96px;
-  padding-top: 96px;
+  padding-top: 50px;
 }
 
 .scroll_supply {
@@ -788,13 +788,14 @@ textarea::placeholder {
   background-size: 100% 100%;
   background-position: center;
   width: 100%;
-  padding-top: 160px;
+  padding-top: 100px;
   margin-bottom: -2px;
-  padding-bottom: 140px;
+  padding-bottom: 60px;
 }
 
 .roadmap-padd {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
+  margin-bottom: 0 !important;
 }
 
 .timeline {
@@ -876,12 +877,13 @@ textarea::placeholder {
 /*----------Bearman------------*/
 .bg-bear {
   background-image: url("./assets/images/webpimg/bg-bear1.webp");
-  background-size: 100% 68%;
+  background-size: 100% 60%;
   background-position: top;
   background-repeat: no-repeat;
   object-fit: cover;
-  min-height: 50vh;
+  min-height: 60vh;
   background-color: black;
+  margin-bottom: -2px;
 }
 
 .big-cloud {
@@ -895,7 +897,7 @@ textarea::placeholder {
   background-image: url("./assets/images/webpimg/bg-twocolour2.webp");
   background-repeat: no-repeat;
   background-size: 100% 107%;
-  background-position: center;
+  background-position: bottom;
   width: 100%;
   /* min-height: 100vh; */
   padding-top: 130px;
@@ -941,14 +943,22 @@ textarea::placeholder {
 }
 
 .case-padding {
-  padding-top: 111px;
-  padding-bottom: 135px;
+  padding-top: 75px;
+  padding-bottom: 95px;
+}
+
+.bg_black1 {
+  background-color: #000;
 }
 
 @media (min-width:576px) {
   .footer_padding {
     padding-top: 70px;
     padding-bottom: 70px
+  }
+
+  .bg_black1 {
+    background: transparent;
   }
 
   .card-case {
