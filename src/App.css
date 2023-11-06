@@ -761,9 +761,9 @@ textarea::placeholder {
 
 .effect-6 {
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
-  -webkit-transition:  0.2s, color 0.2s;
-  -moz-transition:  0.2s, color 0.2s;
-  transition:  0.2s, color 0.2s;
+  -webkit-transition: 0.2s, color 0.2s;
+  -moz-transition: 0.2s, color 0.2s;
+  transition: 0.2s, color 0.2s;
 }
 
 .effect-6:hover {
@@ -1342,7 +1342,7 @@ textarea::placeholder {
   }
 
   .gap-btn {
-    gap: 120px;
+    gap: 90px;
   }
 
   .footer_padding {

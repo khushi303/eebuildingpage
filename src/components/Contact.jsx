@@ -16,9 +16,9 @@ const Contact = () => {
                         <input type="text" placeholder="Email" className='w-50 py-4 bg-transparent outline_none border_bottom ff-raleway fs-2sm fw-normal text-white lh-150' />
                         <input type="text" placeholder="Phone Number" className='w-50 py-4 bg-transparent outline_none border_bottom ff-raleway fs-2sm fw-normal text-white lh-150' />
                     </div>
-                    <textarea name="#" id="#" rows="4" placeholder="Massage" className='resize_none w-100 bg-transparent outline_none border_bottom ff-raleway fs-2sm fw-normal text-white lh-150 '></textarea>
+                    <textarea name="#" id="#" rows="4" placeholder="Message" className='resize_none w-100 bg-transparent outline_none border_bottom ff-raleway fs-2sm fw-normal text-white lh-150 '></textarea>
                 </form>
-                <button className='btn_submit ff-raleway fw-medium fs-md text-white'>SUBMIT'</button>
+                <button className='btn_submit ff-raleway fw-medium fs-md text-white'>SUBMIT</button>
             </Container>
         </div>
     )
