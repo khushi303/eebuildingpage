@@ -759,6 +759,28 @@ textarea::placeholder {
   box-shadow: 0px 3.8778px 9.6945px 0px rgba(22, 67, 195, 0.21);
 }
 
+.effect-6 {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+  -webkit-transition:  0.2s, color 0.2s;
+  -moz-transition:  0.2s, color 0.2s;
+  transition:  0.2s, color 0.2s;
+}
+
+.effect-6:hover {
+  background: rgba(255, 255, 255, 1);
+  color: #64bb5d;
+}
+
+.effect-6:hover i {
+  color: #64bb5d;
+}
+
+.effect-6:hover:before {
+  -webkit-animation: spinAround 2s linear infinite;
+  -moz-animation: spinAround 2s linear infinite;
+  animation: spinAround 2s linear infinite;
+}
+
 /*-----------------Roadmap---------------*/
 .bg_roadmap {
   background-image: url("./assets/images/webpimg/bg_roadmap.webp");
@@ -835,6 +857,7 @@ textarea::placeholder {
   background: rgba(22, 67, 195, 0.10);
   padding: 36px 15px;
   position: relative;
+  cursor: pointer;
   transition: all .3s linear;
 }
 
@@ -1319,7 +1342,7 @@ textarea::placeholder {
   }
 
   .gap-btn {
-    gap: 90px;
+    gap: 120px;
   }
 
   .footer_padding {
