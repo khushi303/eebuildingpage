@@ -27,7 +27,7 @@ const Tokenomins = () => {
                     </Col>
                     <Col data-aos="fade-left" lg={6} className='pt-lg-0 pt-100'>
                         <div className='d-flex align-items-center gap-3 pb-4'>
-                            <div className='cur_pointer effect-6'>
+                            <div className='cur_pointer icon_hov'>
                                 <Settingsvg />
                             </div>
                             <div>
@@ -36,7 +36,7 @@ const Tokenomins = () => {
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pb-4'>
-                            <div className='cur_pointer effect-6'>
+                            <div className='cur_pointer icon_hov'>
                                 <Extraicon />
                             </div>
                             <div>
@@ -45,7 +45,7 @@ const Tokenomins = () => {
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pb-4'>
-                            <div className='cur_pointer effect-6'>
+                            <div className='cur_pointer icon_hov'>
                                 <Msgsicon />
                             </div>
                             <div>
@@ -54,7 +54,7 @@ const Tokenomins = () => {
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pb-4'>
-                            <div className='cur_pointer effect-6'>
+                            <div className='cur_pointer icon_hov'>
                                 <Shareicon />
                             </div>
                             <div>
@@ -63,7 +63,7 @@ const Tokenomins = () => {
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pb-4'>
-                            <div className='cur_pointer effect-6'>
+                            <div className='cur_pointer icon_hov'>
                                 <Sett2icon />
                             </div>
                             <div>
